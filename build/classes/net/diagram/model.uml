@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_B99N8G9yEeiLaoSJ77hxSA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_CAHxIG9yEeiLaoSJ77hxSA" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_DqXscG9yEeiLaoSJ77hxSA" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_EpbVsG9yEeiLaoSJ77hxSA" name="Interaction3"/>
+</uml:Model>

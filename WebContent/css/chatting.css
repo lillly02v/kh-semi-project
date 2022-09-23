@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.chatImage{
+	position:absolute;
+	width:70px;
+	height:70px;
+	z-index:20;
+	top:80%;
+	right:3%;
+	}

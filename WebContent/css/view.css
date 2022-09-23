@@ -1,0 +1,126 @@
+@charset "UTF-8";
+h1{text-align:center}
+textarea{width:100%}
+.title{
+	background-color:rgb(30,144,255); 
+	height:15px; 
+	}
+ .my-hr1 {
+    border: 0;
+    height: 2px;
+    background: #ccc;
+    width : 70%;
+  }
+  .blueone {
+  border-collapse: collapse;
+  margin:auto;
+  width: 68%;
+}  
+.blueone th {
+  padding: 10px;
+  color: #168;
+  border-bottom: 3px solid #168;
+  text-align: left;
+}
+.blueone td {
+  color: #669;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.blueone td {
+  color: #669;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.blueone tr:hover td {
+  color: #004;
+}
+.button{
+	margin:auto;
+  background: dodgerblue;
+  color:#fff;
+  border-radius: 8px;
+  position:relative;
+  height:50px;
+  width: 330px;
+  font-size:1em;
+  padding:0 1em;
+  cursor:pointer;
+  transition:900ms ease all;
+  outline:none;
+}
+.button:hover{
+  background:#fff;
+  color:dodgerblue;
+  border: 3px solid dodgerblue;
+}
+.button:before,.button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #8080ff;
+  transition:400ms ease all;
+}
+.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button:hover:before,.button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.middle{
+	margin:auto;
+	margin-left:30px;
+}
+.name{
+	border-collapse:collapse; 
+	margin:auto; 
+	width:70%;
+}
+.h2_style{
+	margin-left:30px;
+	color:white;
+}
+.h4_style{
+	text-align:right;
+	margin-right:32px;
+}
+.h4_style0{
+	text-align:right;
+	margin-right:30px;
+	color:white;
+}
+.h4_style1{
+	margin-left:30px;
+}
+.bottom_button{
+	background:#5D5D5D; 
+	color:white; 
+	border:0; 
+	height:30px;
+	width: 100px; 
+	line-height: 28px;
+    border-radius:3px;
+}
+#qav_head {
+    background: #f3f3f3;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 15px;
+}
+.vbo_head {
+    position: relative;
+    padding: 0 0 10px;
+    width: auto;
+    border-bottom: 1px solid #eceff3;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}

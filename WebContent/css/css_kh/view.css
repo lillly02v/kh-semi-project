@@ -1,0 +1,96 @@
+@CHARSET "EUC-KR";
+table{
+   box-sizing:border-box;
+   text-align:center;
+}
+h1 {
+   color: #1E90FF;
+   text-align: left;
+   margin-left:2%;
+}
+
+#chumbu {width:300px; height:300px;}
+.down{
+   float:right;
+   margin-right:9.5%;
+   border-bottom: 1px solid #1E90FF;
+}
+.viewCont {
+   margin: 0 auto;
+   width: 60%;
+   border-collapse: collapse;
+   text-align: center;
+   height: 20%;
+   font-size:12pt;
+   line-height:30px;
+}
+.sub{
+   border-top: 3px solid #1E90FF;
+   border-bottom: 1px solid #1E90FF;
+   width: 81%;
+   margin: 0 auto;
+}
+#jpg {
+   width: 20px;
+   height: 20px
+}
+.nbutton1{
+   width: 60px;
+   height: 30px;
+   padding-left: 10px;
+   font-size: 18px;
+   color: #006fff;
+   border: 1px solid #006fff;
+   border-radius: 3px;
+   background-color: white;
+   cursor:pointer;
+   text-align:center;
+}
+.nbutton2{
+   width: 100px;
+   height: 30px;
+   padding-left: 10px;
+   font-size: 18px;
+   color: #006fff;
+   border: 1px solid #006fff;
+   border-radius: 3px;
+   background-color: white;
+   cursor:pointer;
+   text-align:center;
+}
+a.top {
+   position: fixed;
+   right: 10%;
+   bottom: 80px;
+   display: inline-block;
+}
+.du{
+   width:100px;
+   height:50px;
+}
+#choice{
+   line-height:60px;
+}
+.asdf{
+   width:81%;
+   margin: 0 auto;
+   border-top: 3px solid #1E90FF;
+   border-bottom: 3px solid #1E90FF;
+   text-align:center; 
+   line-height:40px; 
+   font-size:12pt; 
+   font-weight:bold;
+   color:black;
+}
+a {
+	text-decoration: none
+}
+#choice a {
+	border: 1px;
+	background-color: #5d5d5d;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    color: white;
+}

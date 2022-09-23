@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.title{
+	background-color:rgb(30,144,255); 
+	height:30px; 
+	}
+textarea{
+	width:100%;
+}
+td:nth-child(1){width:15%;    background-color: #f1f1f1;}
+#aname{
+	width:100%;
+}
+#ntsub{
+	width:100%;
+}
+#ntcont{
+	width:100%;
+}
+#ntfiles{
+	width: 100%;
+}
+#table{
+	border-bottom: 3px solid #168; 
+	margin:auto;  
+	width:70%;
+}
+.center{
+	text-align:center;
+} 

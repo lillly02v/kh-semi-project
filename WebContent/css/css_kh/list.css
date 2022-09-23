@@ -1,0 +1,119 @@
+@CHARSET "utf-8";
+
+h1 {
+	color: #1E90FF;
+	text-align: left;
+}
+
+
+#searchForm {
+	text-align: center
+}
+
+.list-table {
+	border-top: 3px solid #1E90FF;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+td:nth-child(2) {
+	text-align: left;
+}
+
+a {
+	text-decoration: none
+}
+
+img {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+}
+
+.target { /* 한 줄 자르기 */
+	line-height: 2;
+	display: inline-block;
+	width: 600px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align:middle;
+}
+
+th {
+	border-bottom: 2px solid #ddd;
+}
+
+.lime {
+	font-size: 20px;
+	line-height: 60px;
+	border-bottom: none;
+	
+}
+
+tr {
+	line-height: 28px;
+}
+
+.news-td {
+	border-bottom: 1px solid #ddd;
+}
+
+
+td:nth-child(2):hover {
+	background-color: #F8F8F8
+}
+select {
+	width: 120px;
+	height: 34px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #006fff;
+	border: 1px solid #006fff;
+	border-radius: 3px;
+	cursor:help;
+	vertical-align: middle;
+}
+
+input[type=text] {
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #006fff;
+	border: 1px solid #006fff;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+input[type=submit] {
+	width: 50px;
+	height: 35px;
+	font-size: 16px;
+	color: white;
+	background-color: #56697c;
+	border: 1px solid #006fff;
+	border-radius: 3px;
+	text-align: center;
+	cursor:pointer;
+	vertical-align: middle;
+}
+
+.pageNum {
+	margin-right: 57.5%;
+}
+.loadForm{
+	margin-left:10%;
+}
+.nbutton1{
+	width: 120px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #006fff;
+	border: 1px solid #006fff;
+	border-radius: 3px;
+	background-color: white;
+	cursor:pointer;
+}
